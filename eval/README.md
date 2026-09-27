@@ -52,6 +52,11 @@ run you already saved.
 Do not hand-edit the file. Where you account for the runs it took to get
 there is your write-up in the phase file, not the transcript.
 
+Commit `eval-run.txt` to git right after each `--save-run`. The file is
+overwritten on every run, so if you don't commit it, only the very last
+run survives anywhere — git history is what lets you go back and see
+earlier runs.
+
 ## What the output means
 
 One line per issue while grading, then a table:
